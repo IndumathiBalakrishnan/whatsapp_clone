@@ -1,0 +1,261 @@
+.container{
+  height: 700px;
+  width: 90%;
+  background-color:#dfdfdf;
+  margin-left:50px;
+  position: relative;
+    display: flex;
+    justify-content: center;
+}
+.subcontainer{
+  height: 100px;
+  width: 100%;
+  background-color:#009688;
+}
+.container1{
+  height: 640px;
+  width: 90%;
+  background-color:#e4ddd6;
+  position: absolute;
+    top: 21px;
+    display: flex;
+    background-image: url(./backimage.jpg);
+
+}
+/*.subcontainer1{
+  height: 57px;
+  width: 100%;
+  background-color:blueviolet;
+}*/
+.leftside-content{
+  height: 640px;
+  width: 39%;
+  background-color:white;
+}
+.rightside{
+  height:60px;
+  width: 64%;
+  background-color:#eeeeee;
+  margin-left: 3px;
+}
+.leftside{
+  height: 60px;
+  width: 100%;
+  background-color: #eeeeee;
+}
+.searchicon{
+  height: 38px;
+  width:100%;
+  background-color:#fefefe;
+}
+.searchicon-text{
+  position: relative;
+    left: 76px;
+    bottom: 15px;
+
+}
+
+
+.imgdiv{
+  background-color:#eeeeee;
+    width: 100%;
+    height: 77px;
+    
+}
+.imag{
+  height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.imgcenter-text{
+  
+    height: 58px;
+    width: 30%;
+    position: relative;
+    left: 85px;
+    bottom: 55px;
+    line-height: 16px;
+
+}
+.imgrightside-text{
+  
+  width:10%;
+  position: relative;
+  left: 321px;
+  bottom: 112px;
+  color:gray;
+    
+}
+.one{
+  background-color:#fbfbfb;
+}
+.image1{
+  height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.imgdiv-first{
+  height: 60px;
+}
+.imgcenterfirst-text{
+  height: 51px;
+    width: 100px;
+    
+    position: relative;
+    left: 73px;
+    bottom: 47px;
+    line-height: 15px;
+
+}
+.imagfirst{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-top: 8px;
+    margin-left: 8px;
+
+}
+.msgcontent{
+  height:30px;
+  width: 145px;
+  border-radius: 5px;
+  background-color:#dbebf3;
+  position: relative;
+    top: 200px;
+    left: 38%;
+    display: flex;
+    justify-content: center;
+
+}
+.msgcontent1{
+  height: 55px;
+  width: 294px;
+background-color:#dcf9c6;
+position: relative;
+    top: 230px;
+    left:350px;
+    border-radius: 10px;
+}
+.smily{
+  height: 20px;
+}
+.msgcontent2{
+  width: 286px;
+    background-color: whitesmoke;
+    position: relative;
+    top: 250px;
+    left: 40px;
+    padding-left: 5px;
+    height: 44px;
+    border-radius: 10px;
+}
+.date2{
+  height: 18px;
+  width: 40px;
+  
+  position: relative;
+    left: 230px;
+    bottom: 21px;
+}
+.msgcontent3{
+  height: 60px;
+  width: 300px;
+  background-color:#dcf9c6;
+  border-radius: 10px;
+  position: relative;
+    top:265px;
+    left:340px;
+    
+}
+.date3{
+  height: 18px;
+  width: 40px;
+ 
+  position: relative;
+  left: 259px;
+  /* top: -6px; */
+  bottom: 18px;
+}
+.simly-gray{
+height: 100px;
+width: 99%;
+background-color:#eeeeee;;
+position: relative;
+    top: 290px;
+    left: 5px;
+}
+.smily1{
+ color:gray;
+ height: 30%;
+ position: relative;
+    top: 20px;
+    left: 30px;
+}
+.bottom-center{
+      height: 44px;
+      width:431px;
+      background-color: whitesmoke;
+      position: relative;
+    left: 100px;
+    bottom: 16px;
+    border-radius: 10px;
+    padding-left: 10px;
+
+    }
+    .mic-icon{
+      height: 28px;
+      width: 25px;
+      
+      position: relative;
+    left: 580px;
+    bottom: 59px;
+    font-size: 27px;
+    color:gray;
+
+    }
+   .msg-ellipse{
+     height: 45px;
+     width: 100px;
+     
+     position: relative;
+     left:330px;
+     bottom:50px;
+   }
+   .message{
+     height: 20px;
+   }
+   .firstuser-icon{
+     height: 60px;
+     width: 100px;
+     
+     
+   }
+   .leftside-icon{
+     height: 50px;
+     width: 100px;
+     
+     position: relative;
+     left:580px;
+     bottom:100px;
+   } 
+   .attach-icon{
+     height: 25px;
+     color:gray;
+   }
+   .scroll{
+     height: 500px;
+     overflow-y: scroll;
+   }
+   ::-webkit-scrollbar 
+{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb 
+{
+    background:#c1c1c1 ; 
+    
+}

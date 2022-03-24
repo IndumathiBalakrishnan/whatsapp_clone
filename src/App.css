@@ -1,0 +1,148 @@
+.container{
+  height: 700px;
+  width: 90%;
+  background-color:#dfdfdf;
+  margin-left:50px;
+   position: relative; 
+  display: flex;
+  justify-content: center;
+}
+.subcontainer{
+  height: 100px;
+  width: 100%;
+  background-color:#009688;
+}
+.container1{
+  height: 640px;
+  width: 90%;
+  background-color:#e4ddd6;
+  position: absolute;
+    top: 21px;
+    display: flex;
+    background-image: url(./backimage.jpg);
+
+}
+.leftside-content{
+  height: 640px;
+  width: 39%;
+  background-color:white;
+}
+.leftside{
+  height: 60px;
+  width: 100%;
+  background-color: #eeeeee;
+}
+.message{
+  height: 20px;
+}
+.firstuser-icon{
+  height: 60px;
+  width: 100px;
+}
+.msg-ellipse{
+  /* height: 45px;
+  width: 100px; */
+  position: relative;
+  left:330px;
+  bottom:50px;
+}
+.searchicon{
+  height: 38px;
+  width:100%;
+  background-color:#fefefe;
+}
+.searchicon-text{
+  position: relative;
+    left: 76px;
+    bottom: 15px;
+
+}
+
+.imgdiv{
+  /* background-color:#eeeeee; */
+    width: 425px;
+    height: 77px;
+    border-bottom: solid 0.001px grey;
+    background-color:#fbfbfb;
+}
+    
+
+.image{
+  height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.imgcenter-text{
+  
+  height: 58px;
+  width: 30%;
+  position: relative;
+  left: 85px;
+  bottom: 55px;
+  line-height: 16px;
+
+}
+.imgrightside-text{
+  
+  
+  position: relative;
+  left: 325px;
+  bottom: 110px;
+  color:gray; 
+}
+.rightside{
+  height:60px;
+  width: 64%;
+  background-color:#eeeeee;
+  margin-left: 3px;
+ 
+}
+.imagfirst{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-top: 8px;
+    margin-left: 8px;
+
+}
+.scroll{
+  height: 500px;
+    overflow-y: scroll;
+    width: 430px;
+    overflow-x: hidden;
+
+}
+::-webkit-scrollbar 
+{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb 
+{
+    background:#c1c1c1 ; 
+    
+}
+.content-container{
+
+  display:flex;
+}
+.sidediv{
+
+  background-color: aqua;
+}
+.leftside-icon{
+  height: 50px;
+  width: 100px;
+  
+  position: relative;
+  left:580px;
+  bottom:100px;
+} 
+.attach-icon{
+  height: 25px;
+  color:gray;
+}.attach-icon{
+  height: 25px;
+  color:gray;
+}
